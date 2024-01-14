@@ -9,7 +9,7 @@
 require 'faker'
 
 30.times do
-  User.create!(name: Faker::Internet.username)
+  User.create!(name: Faker::Internet.username, age: rand(10..50))
 end
 
 100.times do

@@ -1,0 +1,20 @@
+%h1 Basic Datatable
+
+%table#users.table
+  %thead
+    %tr
+      %th{:scope => "col"}
+      %th{:scope => "col"} #
+      %th{:scope => "col"} Id
+      %th{:scope => "col"} Name
+      %th{:scope => "col"} Age
+  %tbody
+    -@users.each_with_index do |user, index|
+      %tr
+        %td
+        %th{:scope => "row"}=index + 1
+        %td= user[:id]
+        %td= user[:name]
+        %td= user[:age]
+
+

@@ -75,3 +75,6 @@ gem 'popper_js', '~> 1.12.9'
 gem 'mini_racer', '0.5.0.pre'
 
 gem 'faker'
+
+gem 'jquery-datatables-rails', '~> 3.4.0'
+gem 'jquery-ui-rails'
