@@ -65,3 +65,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'haml-rails'
 gem 'haml_lint', require: false
+
+
+gem 'jquery-rails'
+
+gem 'bootstrap', '~> 4.1.1'
+gem 'popper_js', '~> 1.12.9'
+
+gem 'mini_racer', '0.5.0.pre'

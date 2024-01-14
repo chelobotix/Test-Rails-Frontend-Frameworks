@@ -7,7 +7,7 @@ development:
   host: localhost
   adapter: postgresql
   encoding: unicode
-  database: x5_development
+  database: test521
   pool: 5
   # username: x5
   username: postgres
@@ -20,7 +20,7 @@ test:
   host: localhost
   adapter: postgresql
   encoding: unicode
-  database: x5_test
+  database: test521
   pool: 5
   # username: x5
   username: postgres
@@ -33,24 +33,3 @@ production:
   pool: 10
   username: x0
   password: x0
-
-x5demo1:
-  adapter: postgresql
-  encoding: unicode
-  database: x5demo1_production
-  pool: 5
-  username: x5demo1
-
-x5demo2:
-  adapter: postgresql
-  encoding: unicode
-  database: x5demo2_production
-  pool: 5
-  username: x5demo2
-
-x51:
-  adapter: postgresql
-  encoding: unicode
-  database: x51_production
-  pool: 5
-  username: x51
