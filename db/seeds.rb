@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+require 'faker'
+
+30.times do
+  User.create!(name: Faker::Internet.username)
+end
+
+100.times do
+  rand = rand(1..30)
+  Post.create!(title: Faker::Games::Heroes.artifact, user_id: rand)
+end
