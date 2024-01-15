@@ -1,0 +1,23 @@
+%table#usersdatatable{"datasource" => "#{list_pages_path(format: :json)}"}
+  %thead
+    %tr
+      %th Name
+      %th Age
+  %tbody
+
+:javascript
+    $(document).ready(function() {
+      $('#usersdatatable').DataTable({
+          processing: true,
+          serverSide: true,
+          ajax: {
+              url: $('#usersdatatable').data('source'),
+              type: 'POST'
+          },
+          columns: [
+              {data: 'name'},
+              {data: 'age'},
+          ],
+          order: [1, 'asc']
+      });
+    });

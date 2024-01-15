@@ -78,3 +78,7 @@ gem 'faker'
 
 gem 'jquery-datatables-rails', '~> 3.4.0'
 gem 'jquery-ui-rails'
+gem 'ajax-datatables-rails'
+
+gem 'pry', '~> 0.13.1'
+gem 'pry-byebug'

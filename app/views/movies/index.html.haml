@@ -1,0 +1,10 @@
+%h1 Movies#index
+%p Find me in app/views/movies/index.html.haml
+
+%table.table.card-table.table-vcenter.hover#movies-datatable(data-source="#{datatable_movies_path(format: :json)}")
+	%thead
+		%tr
+			%th{:width => "100"} Id
+			%th{:width => "100"} Name
+			%th{:width => "100"} Year
+	%tbody

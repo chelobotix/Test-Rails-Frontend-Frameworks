@@ -1,3 +1,4 @@
+
 class PagesController < ApplicationController
   def index
   end
@@ -6,7 +7,4 @@ class PagesController < ApplicationController
     @users = User.all
   end
 
-  def ajax_datatable
-    @users = User.all
-  end
 end

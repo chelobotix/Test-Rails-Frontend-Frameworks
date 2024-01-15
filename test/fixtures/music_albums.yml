@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  genre: MyString
+  tracks: 1
+  date_of_released: 2024-01-15
+  country: MyString
+  tag: MyString
+
+two:
+  title: MyString
+  genre: MyString
+  tracks: 1
+  date_of_released: 2024-01-15
+  country: MyString
+  tag: MyString

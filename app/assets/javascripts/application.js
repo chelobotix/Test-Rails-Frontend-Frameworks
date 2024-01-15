@@ -7,5 +7,4 @@
 //= require dataTables/extras/dataTables.scroller
 //= require dataTables/dataTables.yadcf.js
 //= require dataTables/dataTables.checkboxes.js
-//= require activestorage
 //= require_tree .

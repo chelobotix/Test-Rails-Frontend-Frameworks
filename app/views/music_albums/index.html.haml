@@ -1,0 +1,13 @@
+%h1 MusicAlbums#index
+%table.table.card-table.table-vcenter.hover#music-album-datatable(data-source="#{datatable_music_albums_path(format: :json)}")
+	%thead
+		%tr
+			%th{:width => "10"} Id
+			%th{:width => "150"} Title
+			%th{:width => "100"} Genre
+			%th{:width => "10"} Tracks
+			%th{:width => "100"} Date of Release
+			%th{:width => "150"} Country
+			%th{:width => "30"} Tag
+	%tbody
+
