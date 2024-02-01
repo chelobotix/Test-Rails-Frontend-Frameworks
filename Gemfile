@@ -88,3 +88,5 @@ gem "lazybox", "~> 1.1"
 gem "rainbow", "~> 3.1"
 
 gem "simple_form", "~> 5.3"
+gem "shakapacker", "7.0.1"     # Use the latest and the exact version
+gem "react_on_rails", "13.3.1" # Use
