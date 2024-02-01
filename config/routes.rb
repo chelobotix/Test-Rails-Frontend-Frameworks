@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'hello_world', to: 'hello_world#index'
   get 'music_albums/index'
   concern :with_datatable do
     post 'datatable', on: :collection

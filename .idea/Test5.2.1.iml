@@ -63,6 +63,7 @@
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.9.1, RVM: ruby-2.7.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faker (v3.2.2, RVM: ruby-2.7.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.16.3, RVM: ruby-2.7.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="foreman (v0.87.2, RVM: ruby-2.7.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.1.0, RVM: ruby-2.7.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v6.3.0, RVM: ruby-2.7.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml-rails (v2.1.0, RVM: ruby-2.7.5) [gem]" level="application" />
@@ -323,8 +324,8 @@
       <value>file://$MODULE_DIR$/vendor/assets</value>
     </entry>
   </component>
-  <component name="RakeTasksCache-v2" failedReloadsCounter="2">
-    <option name="failedReloadsCounter" value="2" />
+  <component name="RakeTasksCache-v2" failedReloadsCounter="3">
+    <option name="failedReloadsCounter" value="3" />
     <option name="myRootTask">
       <RakeTaskImpl id="rake">
         <subtasks>
