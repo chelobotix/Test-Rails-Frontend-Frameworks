@@ -82,3 +82,9 @@ gem 'ajax-datatables-rails'
 
 gem 'pry', '~> 0.13.1'
 gem 'pry-byebug'
+
+gem "lazybox", "~> 1.1"
+
+gem "rainbow", "~> 3.1"
+
+gem "simple_form", "~> 5.3"
