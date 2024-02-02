@@ -94,3 +94,5 @@ gem('rubocop', '~> 0.83.0')
 gem('rubocop-rails', '~> 2.6')
 
 gem('better_errors', '~> 2.10')
+
+gem('devise', '~> 4.9')

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'music_albums/index'
   concern :with_datatable do
     post 'datatable', on: :collection
