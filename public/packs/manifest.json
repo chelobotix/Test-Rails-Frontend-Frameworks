@@ -1,0 +1,43 @@
+{
+  "css/hello-world-bundle.css.map": "/packs/css/hello-world-bundle.css.map",
+  "css/react-app-bundle.css.map": "/packs/css/react-app-bundle.css.map",
+  "entrypoints": {
+    "hello-world-bundle": {
+      "assets": {
+        "js": [
+          "/packs/js/runtime.js",
+          "/packs/js/vendors-node_modules_react-on-rails_node_package_lib_ReactOnRails_js-node_modules_react-route-a5c615.js",
+          "/packs/js/vendors-node_modules_prop-types_index_js.js",
+          "/packs/js/hello-world-bundle.js"
+        ],
+        "css": [
+          "/packs/css/hello-world-bundle.css"
+        ]
+      }
+    },
+    "react-app-bundle": {
+      "assets": {
+        "js": [
+          "/packs/js/runtime.js",
+          "/packs/js/vendors-node_modules_react-on-rails_node_package_lib_ReactOnRails_js-node_modules_react-route-a5c615.js",
+          "/packs/js/react-app-bundle.js"
+        ],
+        "css": [
+          "/packs/css/react-app-bundle.css"
+        ]
+      }
+    }
+  },
+  "hello-world-bundle.css": "/packs/css/hello-world-bundle.css",
+  "hello-world-bundle.js": "/packs/js/hello-world-bundle.js",
+  "js/hello-world-bundle.js.map": "/packs/js/hello-world-bundle.js.map",
+  "js/react-app-bundle.js.map": "/packs/js/react-app-bundle.js.map",
+  "js/runtime.js.map": "/packs/js/runtime.js.map",
+  "js/vendors-node_modules_prop-types_index_js.js": "/packs/js/vendors-node_modules_prop-types_index_js.js",
+  "js/vendors-node_modules_prop-types_index_js.js.map": "/packs/js/vendors-node_modules_prop-types_index_js.js.map",
+  "js/vendors-node_modules_react-on-rails_node_package_lib_ReactOnRails_js-node_modules_react-route-a5c615.js": "/packs/js/vendors-node_modules_react-on-rails_node_package_lib_ReactOnRails_js-node_modules_react-route-a5c615.js",
+  "js/vendors-node_modules_react-on-rails_node_package_lib_ReactOnRails_js-node_modules_react-route-a5c615.js.map": "/packs/js/vendors-node_modules_react-on-rails_node_package_lib_ReactOnRails_js-node_modules_react-route-a5c615.js.map",
+  "react-app-bundle.css": "/packs/css/react-app-bundle.css",
+  "react-app-bundle.js": "/packs/js/react-app-bundle.js",
+  "runtime.js": "/packs/js/runtime.js"
+}
