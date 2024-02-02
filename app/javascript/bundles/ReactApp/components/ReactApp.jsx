@@ -3,7 +3,9 @@ import style from './ReactApp.module.css';
 
 const ReactApp = () => {
     return(
-        <><h1>React App</h1></>
+        <>
+            <h1>React App</h1>
+        </>
     )
 }
 
