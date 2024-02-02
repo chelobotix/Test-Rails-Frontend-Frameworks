@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root 'pages#index'
 
   get 'hello-world', to: 'hello_world#index'
-  get 'react-app', to: 'react_app#index'
+  get '*path', to: 'react_app#index'
 
   get 'music_albums/index'
 

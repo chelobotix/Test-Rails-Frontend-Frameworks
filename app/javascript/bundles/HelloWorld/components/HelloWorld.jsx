@@ -13,7 +13,7 @@ const HelloWorld = (props) => {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/about" element={<About/>}/>
+                    <Route path="/home" element={<About/>}/>
                 </Routes>
             <div>
                 <h3>Hello, {name}!</h3>

@@ -1,11 +1,12 @@
 import React from 'react';
 import style from './ReactApp.module.css';
+import AppRouter from "../routes/AppRouter";
+import '../style/main.css'
 
-const ReactApp = () => {
+const ReactApp = (props) => {
+    const {movies} = props
     return(
-        <>
-            <h1>React App</h1>
-        </>
+        <AppRouter movies={movies}/>
     )
 }
 
