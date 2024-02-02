@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Test5.2.1: production" uuid="dde6cc2e-1e33-45a4-bba8-18e129c658b1">
+    <data-source source="LOCAL" name="Test5.2.1: production" uuid="bcfb63e8-54f8-4b78-8483-110d3c0972f6">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
@@ -10,7 +10,7 @@
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/x0_production</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="Test5.2.1: test" uuid="6688f654-97ba-4323-92fc-b182ce799e10">
+    <data-source source="LOCAL" name="Test5.2.1: development" uuid="14ff9ac7-e28e-447e-bd23-637c6c47dd1c">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
@@ -19,7 +19,7 @@
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/test521</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="Test5.2.1: development" uuid="7556de67-1092-4b45-a1ae-ae3fc2bf667d">
+    <data-source source="LOCAL" name="Test5.2.1: test" uuid="f2523474-d19c-44ee-8e0a-2f83af6ba740">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>

@@ -92,3 +92,5 @@ gem "simple_form", "~> 5.3"
 gem 'rubocop', '~> 0.83.0'
 
 gem 'rubocop-rails', '~> 2.6'
+
+gem 'paper_trail'

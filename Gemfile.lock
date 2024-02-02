@@ -156,6 +156,9 @@ GEM
     nio4r (2.7.0)
     nokogiri (1.15.5-arm64-darwin)
       racc (~> 1.4)
+    paper_trail (13.0.0)
+      activerecord (>= 5.2)
+      request_store (~> 1.1)
     parallel (1.24.0)
     parser (3.3.0.5)
       ast (~> 2.4.1)
@@ -206,6 +209,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.8.3)
+    request_store (1.4.1)
+      rack (>= 1.4)
     rexml (3.2.6)
     rubocop (0.83.0)
       parallel (~> 1.10)
@@ -296,6 +301,7 @@ DEPENDENCIES
   lazybox (~> 1.1)
   listen (>= 3.0.5, < 3.2)
   mini_racer (= 0.5.0.pre)
+  paper_trail
   pg
   popper_js (~> 1.12.9)
   pry-byebug
