@@ -64,12 +64,11 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'haml-rails'
-gem 'haml_lint', require: false
-
 
 gem 'jquery-rails'
 
 gem 'bootstrap', '~> 4.1.1'
+
 gem 'popper_js', '~> 1.12.9'
 
 gem 'mini_racer', '0.5.0.pre'
@@ -77,10 +76,11 @@ gem 'mini_racer', '0.5.0.pre'
 gem 'faker'
 
 gem 'jquery-datatables-rails', '~> 3.4.0'
+
 gem 'jquery-ui-rails'
+
 gem 'ajax-datatables-rails'
 
-gem 'pry', '~> 0.13.1'
 gem 'pry-byebug'
 
 gem "lazybox", "~> 1.1"
@@ -88,3 +88,7 @@ gem "lazybox", "~> 1.1"
 gem "rainbow", "~> 3.1"
 
 gem "simple_form", "~> 5.3"
+
+gem 'rubocop', '~> 0.83.0'
+
+gem 'rubocop-rails', '~> 2.6'
