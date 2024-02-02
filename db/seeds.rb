@@ -1,7 +1,9 @@
 require 'faker'
 
+User.create!(name: 'Marce', age: 42, email: 'marce@gmail.com', password: '111111')
+
 30.times do
-  User.create!(name: Faker::Internet.username, age: rand(10..50))
+  User.create!(name: Faker::Internet.username, age: rand(10..50), email: Faker::Internet.email, password: '111111')
 end
 
 100.times do

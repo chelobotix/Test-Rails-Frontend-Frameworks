@@ -2,7 +2,7 @@ class MoviesController < ApplicationController
   def index; end
 
   def datatable
-    render json: MovieDatatable.new(params, view_context: view_context)
+    render(json: MovieDatatable.new(params, view_context: view_context))
   end
 
   def new
@@ -12,9 +12,9 @@ class MoviesController < ApplicationController
   def create
     movie = Movie.new(movie_params)
     if movie.save!
-      puts 'yes'
+      puts('yes')
     else
-      render root_path
+      render(root_path)
     end
   end
 
