@@ -1,5 +1,10 @@
 class MoviesController < ApplicationController
-  def index; end
+  before_action :authenticate_user!, :set_paper_trail_whodunnit
+
+  def index
+    puts('**************')
+    puts(current_user)
+  end
 
   def datatable
     render(json: MovieDatatable.new(params, view_context: view_context))

@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def index
-    @last = Movie.last
+    @last_movie = Movie.last
   end
 
   def basic_datatable
