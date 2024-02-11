@@ -9,3 +9,8 @@
 //= require dataTables/dataTables.checkboxes.js
 //= require lazybox
 //= require_tree .
+
+
+function scrollBotton() {
+    $('#chat-box').scrollTop($('#chat-box')[0].scrollHeight)
+}

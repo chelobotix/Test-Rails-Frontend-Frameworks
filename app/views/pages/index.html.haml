@@ -22,7 +22,16 @@
         .card-body
           hello
 .container#last-movie
+  %h3 Lazy-box
   = link_to "New Movie", new_movie_path, remote: true
   %p Last movie
   = @last_movie.name
+  %hr
+
+  .container
+    %h3 Bate Papo do Chelo
+    %div#chat-box.chat-container.border.border-warning
+      = render "messages/messages", messages: @messages
+
+    = render "message_form", new_message: @new_message
 

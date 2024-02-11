@@ -1,0 +1,4 @@
+- if messages.present?
+  -messages.each do |message|
+    %p
+      ="#{message.user.name} said: #{message[:body]}"
