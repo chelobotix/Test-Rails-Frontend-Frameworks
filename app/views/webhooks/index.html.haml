@@ -1,0 +1,27 @@
+%h1 Listing webhooks
+
+%table
+  %thead
+    %tr
+      %th Source
+      %th Data
+      %th Message
+      %th Event
+      %th
+      %th
+      %th
+
+  %tbody
+    - @webhooks.each do |webhook|
+      %tr
+        %td= webhook.source
+        %td= webhook.data
+        %td= webhook.message
+        %td= webhook.event
+        %td= link_to 'Show', webhook
+        %td= link_to 'Edit', edit_webhook_path(webhook)
+        %td= link_to 'Destroy', webhook, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Webhook', new_webhook_path
