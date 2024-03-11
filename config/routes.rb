@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'pages#index'
 
+  get "page2", to: "pages#page2"
+
   devise_for :users
 
   concern :with_datatable do
@@ -19,4 +21,7 @@ Rails.application.routes.draw do
   resources :messages, only: [:create]
 
   mount ActionCable.server, at: '/cable'
+
+  notify_to :users, with_devise: :users
+
 end

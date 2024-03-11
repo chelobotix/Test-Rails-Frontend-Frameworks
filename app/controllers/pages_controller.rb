@@ -8,4 +8,8 @@ class PagesController < ApplicationController
   def basic_datatable
     @users = User.all
   end
+
+  def page2
+    @post = Post.first
+  end
 end

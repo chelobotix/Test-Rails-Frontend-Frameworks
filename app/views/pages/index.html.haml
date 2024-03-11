@@ -1,6 +1,8 @@
 %h1 Pages#index
 %p= link_to('Basic Datatable', basic_datatable_path)
 %p= link_to('Ajax Datatable', movies_path)
+%p= link_to('Page 2', page2_path)
+
 .container.border.p-5
   .row.justify-content-between
     .col-2.bg-success.m-1 works!!!
@@ -27,7 +29,10 @@
   %p Last movie
   = @last_movie.name
   %hr
-
+  %h4 Movies Notifications
+  - current_user.notifications.each do |notification|
+    %p
+      = "#{notification.key} - #{notification.created_at}"
   .container
     %h3 Bate Papo do Chelo
     %div#chat-box.chat-container.border.border-warning
